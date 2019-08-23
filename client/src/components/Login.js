@@ -36,7 +36,7 @@ const Login = props => {
       <h1>Welcome to the Bubble App!</h1>
       <div className="login">
         <form
-          className="login-modal"
+          className="login-form"
           onSubmit={event => handleSubmit(event)}
           tabIndex="0"
         >
@@ -45,7 +45,7 @@ const Login = props => {
             <label>
               Username:
               <input
-                className="input-modal"
+                className="input"
                 type="text"
                 name="username"
                 onChange={handleChange}
@@ -58,7 +58,7 @@ const Login = props => {
             <label>
               Password:
               <input
-                className="input-modal"
+                className="input"
                 type="password"
                 name="password"
                 onChange={handleChange}
@@ -67,7 +67,7 @@ const Login = props => {
             </label>
           </p>
 
-          <button className="button-modal" onClick={login}>Login</button>
+          <button className="login-button" onClick={login}>Login</button>
         </form>
       </div>
     </>
