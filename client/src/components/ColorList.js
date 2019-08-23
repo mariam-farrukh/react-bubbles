@@ -132,19 +132,19 @@ const ColorList = ({ colors, updateColors }) => {
         <label> color name:
             <input
               type="text"
-              name="code"
-              onChange={handleChangeCode}
-              placeholder="#00ced1"
-              value={newColor.code.hex}
-            />
-          </label>
-          <label>hex code:
-            <input
-              type="text"
               name="color"
               onChange={handleChange}
               placeholder="dark turquoise"
               value={newColor.color}
+            />
+        </label>
+        <label> hex code:
+            <input
+              type="text"
+              name="code"
+              onChange={handleChangeCode}
+              placeholder="#00ced1"
+              value={newColor.code.hex}
             />
           </label>
           <button type="submit">Add Color</button>
