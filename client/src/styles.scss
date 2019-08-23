@@ -21,7 +21,8 @@ body,
 }
 
 .spacer {
-  height: 100%;
+  margin-top: 10em;
+  height: auto;
 }
 
 .bubble-wrap {
@@ -31,7 +32,7 @@ body,
 }
 
 .colors-wrap {
-  height: 100%;
+  height: auto;
   width: 300px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 
@@ -61,7 +62,6 @@ body,
 }
 
 form {
-  margin-top: 60px;
   display: flex;
   flex-direction: column;
 
@@ -83,17 +83,19 @@ form {
     width: 100px;
   }
 }
+button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 3px 8px;
+  margin-top: 16px;
+  width: 6em;
+}
 
 .button-row {
   display: flex;
   justify-content: space-between;
   padding: 0 36px 0 41px;
 
-  button {
-    border: none;
-    background-color: black;
-    color: white;
-    padding: 3px 8px;
-    margin-top: 16px;
-  }
 }
+
